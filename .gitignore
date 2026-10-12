@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# React Native and Metro
+.metro-health-check*
+*.jsbundle
+
+# Android
+.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.cxx/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace/
+
+# Tooling
+.DS_Store
+.idea/
+*.iml
+npm-debug.log*
+yarn-error.log
